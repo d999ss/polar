@@ -14,7 +14,7 @@
     .polar-animate {
       opacity: 0;
       transform: translateY(24px);
-      transition: opacity ${config.duration}ms ${config.easing}, 
+      transition: opacity ${config.duration}ms ${config.easing},
                   transform ${config.duration}ms ${config.easing};
     }
     .polar-animate.visible {
@@ -24,12 +24,27 @@
     .polar-animate-scale {
       opacity: 0;
       transform: scale(0.95);
-      transition: opacity ${config.duration}ms ${config.easing}, 
+      transition: opacity ${config.duration}ms ${config.easing},
                   transform ${config.duration}ms ${config.easing};
     }
     .polar-animate-scale.visible {
       opacity: 1;
       transform: scale(1);
+    }
+    /* Activity ticker animation */
+    .activity-ticker-wrapper {
+      animation: ticker-scroll 25s linear infinite;
+    }
+    @keyframes ticker-scroll {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50%); }
+    }
+    .activity-ticker-wrapper:hover {
+      animation-play-state: paused;
+    }
+    /* Hide dates in activity items - override xl:flex */
+    .activity-date-hidden {
+      display: none !important;
     }
   `;
   document.head.appendChild(style);
@@ -81,6 +96,54 @@
     cards.forEach(el => {
       el.classList.add('polar-animate-scale');
       cardObserver.observe(el);
+    });
+
+    // Activity ticker animation
+    const activityHeading = Array.from(document.querySelectorAll('h3')).find(h => h.textContent === 'Activity');
+    if (activityHeading) {
+      // Structure: heading -> parent div -> grandparent (activity box) -> children[1] is items container
+      const activityBox = activityHeading.parentElement?.parentElement;
+      if (activityBox) {
+        const children = Array.from(activityBox.children);
+        // Second child is the items container with class "relative h-[356px] overflow-hidden"
+        const itemsContainer = children[1];
+        if (itemsContainer && itemsContainer.classList.contains('overflow-hidden')) {
+          // Get the inner flex column with items
+          const itemsWrapper = itemsContainer.querySelector('.flex.flex-col');
+          if (itemsWrapper) {
+            // Remove any existing transform and add animation class
+            itemsWrapper.style.transform = '';
+
+            // Clone items for seamless loop
+            const originalItems = itemsWrapper.innerHTML;
+            itemsWrapper.innerHTML = originalItems + originalItems;
+            itemsWrapper.classList.add('activity-ticker-wrapper');
+          }
+        }
+      }
+
+      // Hide dates in activity items (p tags with xl:flex class containing dates)
+      document.querySelectorAll('p').forEach(p => {
+        if (p.classList.contains('xl:flex') && /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}$/.test(p.textContent.trim())) {
+          p.classList.add('activity-date-hidden');
+        }
+      });
+    }
+
+    // Animate profit counter
+    const profitSpans = document.querySelectorAll('span');
+    profitSpans.forEach(el => {
+      if (el.textContent && el.textContent.match(/^-?\$\d+\.\d{2}$/) && el.previousElementSibling?.textContent === 'Profit') {
+        const originalValue = parseFloat(el.textContent.replace(/[$,-]/g, ''));
+        let currentValue = el.textContent.startsWith('-') ? -originalValue : originalValue;
+
+        setInterval(() => {
+          // Random fluctuation
+          const change = (Math.random() - 0.5) * 2;
+          currentValue += change;
+          el.textContent = (currentValue < 0 ? '-' : '') + '$' + Math.abs(currentValue).toFixed(2);
+        }, 2000);
+      }
     });
   }
 
