@@ -50,6 +50,12 @@
   document.head.appendChild(style);
 
   function init() {
+    // Fix elements with inline opacity:0 styles (from Next.js hydration)
+    document.querySelectorAll('[style*="opacity:0"], [style*="opacity: 0"]').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'translateY(0)';
+    });
+
     // Hero section - staggered fade in
     const hero = document.querySelector('.relative.flex.flex-col.items-center.justify-center.gap-4');
     if (hero) {
