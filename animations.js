@@ -132,7 +132,7 @@
     });
 
     // Activity ticker animation
-    const activityHeading = Array.from(document.querySelectorAll('h3')).find(h => h.textContent === 'Activity');
+    const activityHeading = Array.from(document.querySelectorAll('h3')).find(h => h.textContent === 'Activity' || h.textContent === 'System Activity');
     if (activityHeading) {
       // Structure: heading -> parent div -> grandparent (activity box) -> children[1] is items container
       const activityBox = activityHeading.parentElement?.parentElement;
