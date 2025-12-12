@@ -1,0 +1,1272 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+  <url>
+    <loc>https://polar.sh/docs/api-reference/benefits/create</loc>
+    <lastmod>2025-08-11T11:43:12.001Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/benefits/delete</loc>
+    <lastmod>2025-08-11T11:43:11.999Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/benefits/get</loc>
+    <lastmod>2025-08-11T11:43:12.000Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/benefits/list</loc>
+    <lastmod>2025-08-11T11:43:11.998Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/benefits/list-grants</loc>
+    <lastmod>2025-08-11T11:43:11.997Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/benefits/update</loc>
+    <lastmod>2025-08-11T11:43:11.996Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkout-links/create</loc>
+    <lastmod>2025-08-11T11:43:11.992Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkout-links/delete</loc>
+    <lastmod>2025-08-11T11:43:11.993Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkout-links/get</loc>
+    <lastmod>2025-08-11T11:43:11.994Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkout-links/list</loc>
+    <lastmod>2025-08-11T11:43:11.995Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkout-links/update</loc>
+    <lastmod>2025-08-11T11:43:11.993Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/confirm-session-from-client</loc>
+    <lastmod>2025-08-11T11:43:11.920Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/create-session</loc>
+    <lastmod>2025-08-11T11:43:11.845Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/get-session</loc>
+    <lastmod>2025-08-11T11:43:11.922Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/get-session-from-client</loc>
+    <lastmod>2025-08-11T11:43:11.886Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/list-sessions</loc>
+    <lastmod>2025-08-11T11:43:11.877Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/update-session</loc>
+    <lastmod>2025-08-11T11:43:11.880Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/checkouts/update-session-from-client</loc>
+    <lastmod>2025-08-11T11:43:11.894Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/custom-fields/create</loc>
+    <lastmod>2025-08-11T11:43:11.870Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/custom-fields/delete</loc>
+    <lastmod>2025-08-11T11:43:11.843Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/custom-fields/get</loc>
+    <lastmod>2025-08-11T11:43:11.875Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/custom-fields/list</loc>
+    <lastmod>2025-08-11T11:43:11.869Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/custom-fields/update</loc>
+    <lastmod>2025-08-11T11:43:11.866Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-meters/get</loc>
+    <lastmod>2025-08-11T11:43:11.884Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-meters/list</loc>
+    <lastmod>2025-08-11T11:43:11.903Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/downloadables/get</loc>
+    <lastmod>2025-08-11T11:43:11.874Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/downloadables/list</loc>
+    <lastmod>2025-08-11T11:43:11.859Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/get-customer</loc>
+    <lastmod>2025-08-11T11:43:11.893Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/get-organization</loc>
+    <lastmod>2025-08-11T11:43:11.896Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/license-keys/activate</loc>
+    <lastmod>2025-08-20T07:42:54.936Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/license-keys/deactivate</loc>
+    <lastmod>2025-08-20T07:42:54.939Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/license-keys/get</loc>
+    <lastmod>2025-08-11T11:43:11.857Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/license-keys/list</loc>
+    <lastmod>2025-08-11T11:43:11.888Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/license-keys/validate</loc>
+    <lastmod>2025-08-20T07:42:54.938Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/orders/get</loc>
+    <lastmod>2025-08-11T11:43:11.876Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/orders/get-invoice</loc>
+    <lastmod>2025-08-11T11:43:11.846Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/orders/list</loc>
+    <lastmod>2025-08-11T11:43:11.899Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/orders/patch</loc>
+    <lastmod>2025-08-11T11:43:11.858Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/orders/post-invoice</loc>
+    <lastmod>2025-08-11T11:43:11.919Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/seats/assign</loc>
+    <lastmod>2025-10-24T08:41:33.821Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/seats/list</loc>
+    <lastmod>2025-10-24T08:41:33.820Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/seats/list-subscriptions</loc>
+    <lastmod>2025-10-24T08:41:33.818Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/seats/resend</loc>
+    <lastmod>2025-10-24T08:41:33.822Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/seats/revoke</loc>
+    <lastmod>2025-10-24T08:41:33.821Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/sessions/create</loc>
+    <lastmod>2025-08-11T11:43:11.883Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/subscriptions/cancel</loc>
+    <lastmod>2025-08-11T11:43:11.991Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/subscriptions/get</loc>
+    <lastmod>2025-08-11T11:43:11.863Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/subscriptions/list</loc>
+    <lastmod>2025-08-11T11:43:11.882Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-portal/subscriptions/update</loc>
+    <lastmod>2025-08-11T11:43:11.879Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-seats/assign</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-seats/claim</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-seats/get-claim-info</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-seats/list</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-seats/resend</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customer-seats/revoke</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/create</loc>
+    <lastmod>2025-08-11T11:43:11.901Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/delete</loc>
+    <lastmod>2025-08-11T11:43:11.923Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/delete-external</loc>
+    <lastmod>2025-08-11T11:43:11.855Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/get</loc>
+    <lastmod>2025-08-11T11:43:11.921Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/get-external</loc>
+    <lastmod>2025-08-11T11:43:11.905Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/list</loc>
+    <lastmod>2025-08-11T11:43:11.873Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/state</loc>
+    <lastmod>2025-08-11T11:43:11.904Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/state-external</loc>
+    <lastmod>2025-08-11T11:43:11.889Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/update</loc>
+    <lastmod>2025-08-11T11:43:11.847Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/customers/update-external</loc>
+    <lastmod>2025-08-11T11:43:11.865Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/discounts/create</loc>
+    <lastmod>2025-08-11T11:43:11.862Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/discounts/delete</loc>
+    <lastmod>2025-08-11T11:43:11.872Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/discounts/get</loc>
+    <lastmod>2025-08-11T11:43:11.878Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/discounts/list</loc>
+    <lastmod>2025-08-11T11:43:11.867Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/discounts/update</loc>
+    <lastmod>2025-08-11T11:43:11.885Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/events/get</loc>
+    <lastmod>2025-08-11T11:43:11.854Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/events/ingest</loc>
+    <lastmod>2025-08-11T11:43:11.898Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/events/list</loc>
+    <lastmod>2025-08-11T11:43:11.847Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/files/complete-upload</loc>
+    <lastmod>2025-08-11T11:43:11.921Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/files/create</loc>
+    <lastmod>2025-08-11T11:43:11.887Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/files/delete</loc>
+    <lastmod>2025-08-11T11:43:11.905Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/files/list</loc>
+    <lastmod>2025-08-11T11:43:11.895Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/files/update</loc>
+    <lastmod>2025-08-11T11:43:11.900Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/introduction</loc>
+    <lastmod>2025-10-17T07:58:52.313Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/activate</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/deactivate</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/get</loc>
+    <lastmod>2025-08-11T11:43:11.861Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/get-activation</loc>
+    <lastmod>2025-08-11T11:43:11.877Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/list</loc>
+    <lastmod>2025-08-20T07:42:57.345Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/update</loc>
+    <lastmod>2025-08-11T11:43:11.860Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/license-keys/validate</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/meters/create</loc>
+    <lastmod>2025-08-11T11:43:11.875Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/meters/get</loc>
+    <lastmod>2025-08-11T11:43:11.851Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/meters/get-quantities</loc>
+    <lastmod>2025-08-11T11:43:11.848Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/meters/list</loc>
+    <lastmod>2025-08-11T11:43:11.852Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/meters/update</loc>
+    <lastmod>2025-08-11T11:43:11.870Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/metrics/get</loc>
+    <lastmod>2025-08-11T11:43:11.879Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/metrics/get-limits</loc>
+    <lastmod>2025-08-11T11:43:11.853Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/oauth2/connect/authorize</loc>
+    <lastmod>2025-08-11T11:43:11.862Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/oauth2/connect/get-user-info</loc>
+    <lastmod>2025-08-11T11:43:11.867Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/oauth2/connect/introspect-token</loc>
+    <lastmod>2025-08-11T11:43:11.850Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/oauth2/connect/request-token</loc>
+    <lastmod>2025-08-11T11:43:11.890Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/oauth2/connect/revoke-token</loc>
+    <lastmod>2025-08-11T11:43:11.902Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/orders/get</loc>
+    <lastmod>2025-08-11T11:43:11.892Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/orders/get-invoice</loc>
+    <lastmod>2025-08-11T11:43:11.849Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/orders/list</loc>
+    <lastmod>2025-08-11T11:43:11.903Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/orders/patch</loc>
+    <lastmod>2025-08-11T11:43:11.918Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/orders/post-invoice</loc>
+    <lastmod>2025-08-11T11:43:11.885Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/organizations/create</loc>
+    <lastmod>2025-08-11T11:43:11.872Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/organizations/get</loc>
+    <lastmod>2025-10-28T21:27:49.046Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/organizations/list</loc>
+    <lastmod>2025-08-11T11:43:11.868Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/organizations/update</loc>
+    <lastmod>2025-08-11T11:43:11.925Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/products/create</loc>
+    <lastmod>2025-08-11T11:43:12.001Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/products/get</loc>
+    <lastmod>2025-08-11T11:43:11.996Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/products/list</loc>
+    <lastmod>2025-08-11T11:43:11.998Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/products/update</loc>
+    <lastmod>2025-08-11T11:43:12.003Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/products/update-benefits</loc>
+    <lastmod>2025-08-11T11:43:12.002Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/refunds/create</loc>
+    <lastmod>2025-08-11T11:43:11.926Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/refunds/list</loc>
+    <lastmod>2025-08-11T11:43:11.927Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/subscriptions/create</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/subscriptions/get</loc>
+    <lastmod>2025-08-11T11:43:11.929Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/subscriptions/list</loc>
+    <lastmod>2025-08-11T11:43:11.929Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/subscriptions/revoke</loc>
+    <lastmod>2025-08-11T11:43:11.930Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/subscriptions/update</loc>
+    <lastmod>2025-08-11T11:43:11.931Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/benefit.created</loc>
+    <lastmod>2025-08-11T11:43:11.932Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/benefit.updated</loc>
+    <lastmod>2025-08-11T11:43:11.932Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/benefit_grant.created</loc>
+    <lastmod>2025-08-11T11:43:11.933Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/benefit_grant.cycled</loc>
+    <lastmod>2025-08-11T11:43:11.934Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/benefit_grant.revoked</loc>
+    <lastmod>2025-08-11T11:43:11.935Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/benefit_grant.updated</loc>
+    <lastmod>2025-08-11T11:43:11.935Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/checkout.created</loc>
+    <lastmod>2025-08-11T11:43:11.936Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/checkout.updated</loc>
+    <lastmod>2025-08-11T11:43:11.937Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer.created</loc>
+    <lastmod>2025-08-11T11:43:11.938Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer.deleted</loc>
+    <lastmod>2025-08-11T11:43:11.939Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer.state_changed</loc>
+    <lastmod>2025-08-11T11:43:11.940Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer.updated</loc>
+    <lastmod>2025-08-11T11:43:11.941Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer_seat.assigned</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer_seat.claimed</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/customer_seat.revoked</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/endpoints/create</loc>
+    <lastmod>2025-08-11T11:43:11.942Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/endpoints/delete</loc>
+    <lastmod>2025-08-11T11:43:11.948Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/endpoints/get</loc>
+    <lastmod>2025-08-11T11:43:11.949Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/endpoints/list</loc>
+    <lastmod>2025-08-11T11:43:11.950Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/endpoints/update</loc>
+    <lastmod>2025-08-11T11:43:11.951Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/order.created</loc>
+    <lastmod>2025-08-11T11:43:11.952Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/order.paid</loc>
+    <lastmod>2025-08-11T11:43:11.952Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/order.refunded</loc>
+    <lastmod>2025-08-11T11:43:11.953Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/order.updated</loc>
+    <lastmod>2025-08-11T11:43:11.954Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/organization.updated</loc>
+    <lastmod>2025-08-11T11:43:11.955Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/product.created</loc>
+    <lastmod>2025-08-11T11:43:11.957Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/product.updated</loc>
+    <lastmod>2025-08-11T11:43:11.958Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/refund.created</loc>
+    <lastmod>2025-08-11T11:43:11.959Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/refund.updated</loc>
+    <lastmod>2025-08-11T11:43:11.960Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/subscription.active</loc>
+    <lastmod>2025-08-11T11:43:11.961Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/subscription.canceled</loc>
+    <lastmod>2025-08-11T11:43:11.962Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/subscription.created</loc>
+    <lastmod>2025-08-11T11:43:11.963Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/subscription.revoked</loc>
+    <lastmod>2025-08-11T11:43:11.965Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/subscription.uncanceled</loc>
+    <lastmod>2025-08-11T11:43:11.965Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/api-reference/webhooks/subscription.updated</loc>
+    <lastmod>2025-08-11T11:43:11.966Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/changelog/api</loc>
+    <lastmod>2025-08-11T11:43:11.967Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/changelog/recent</loc>
+    <lastmod>2025-12-10T10:18:55.537Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/analytics</loc>
+    <lastmod>2025-10-30T23:50:19.711Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/credits</loc>
+    <lastmod>2025-09-30T10:54:48.521Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/custom</loc>
+    <lastmod>2025-08-11T11:43:11.969Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/discord-access</loc>
+    <lastmod>2025-09-30T10:54:48.522Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/file-downloads</loc>
+    <lastmod>2025-09-30T10:54:48.523Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/github-access</loc>
+    <lastmod>2025-09-30T10:54:48.527Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/introduction</loc>
+    <lastmod>2025-08-11T11:43:11.972Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/benefits/license-keys</loc>
+    <lastmod>2025-12-10T23:56:09.147Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/checkout/embed</loc>
+    <lastmod>2025-10-08T06:58:31.855Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/checkout/links</loc>
+    <lastmod>2025-09-30T10:54:48.526Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/checkout/session</loc>
+    <lastmod>2025-11-19T12:27:11.886Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/cost-insights/cost-events</loc>
+    <lastmod>2025-12-10T23:56:09.150Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/cost-insights/cost-traces</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/cost-insights/introduction</loc>
+    <lastmod>2025-11-19T10:07:26.953Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/custom-fields</loc>
+    <lastmod>2025-10-08T06:58:33.423Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/customer-management</loc>
+    <lastmod>2025-09-30T10:54:51.265Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/customer-portal</loc>
+    <lastmod>2025-10-08T06:58:33.421Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/discounts</loc>
+    <lastmod>2025-09-30T10:54:51.260Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/finance/accounts</loc>
+    <lastmod>2025-09-30T10:54:51.262Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/finance/balance</loc>
+    <lastmod>2025-09-30T10:54:51.258Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/finance/payouts</loc>
+    <lastmod>2025-11-12T08:06:48.400Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/integrations/affonso</loc>
+    <lastmod>2025-10-08T06:58:33.420Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/integrations/fernand</loc>
+    <lastmod>2025-09-30T10:54:51.264Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/integrations/framer</loc>
+    <lastmod>2025-08-11T11:43:11.982Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/integrations/paritydeals</loc>
+    <lastmod>2025-09-30T10:54:52.773Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/integrations/raycast</loc>
+    <lastmod>2025-09-30T10:54:52.770Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/integrations/zapier</loc>
+    <lastmod>2025-08-11T11:43:11.984Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/orders</loc>
+    <lastmod>2025-09-30T10:54:52.772Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/products</loc>
+    <lastmod>2025-10-13T15:12:49.120Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/refunds</loc>
+    <lastmod>2025-09-30T10:54:52.773Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/seat-based-pricing</loc>
+    <lastmod>2025-11-13T15:52:19.768Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/trials</loc>
+    <lastmod>2025-11-12T08:11:50.638Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/billing</loc>
+    <lastmod>2025-09-30T10:54:52.776Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/credits</loc>
+    <lastmod>2025-09-30T10:54:52.776Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/event-ingestion</loc>
+    <lastmod>2025-10-10T15:13:19.300Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/ingestion-strategies/delta-time-strategy</loc>
+    <lastmod>2025-10-08T06:58:35.009Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/ingestion-strategies/ingestion-strategy</loc>
+    <lastmod>2025-08-11T11:43:11.990Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/ingestion-strategies/llm-strategy</loc>
+    <lastmod>2025-11-19T10:46:39.027Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/ingestion-strategies/s3-strategy</loc>
+    <lastmod>2025-10-08T06:58:35.010Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/ingestion-strategies/stream-strategy</loc>
+    <lastmod>2025-10-08T06:58:35.008Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/introduction</loc>
+    <lastmod>2025-10-16T07:09:51.108Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/features/usage-based-billing/meters</loc>
+    <lastmod>2025-10-08T06:58:35.011Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/allow-multiple-subscriptions-per-customer</loc>
+    <lastmod>2025-09-30T10:54:54.088Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/automate-post-purchase-link-sharing</loc>
+    <lastmod>2025-11-21T20:09:13.855Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/change-email-as-merchant</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/create-checkout-session</loc>
+    <lastmod>2025-12-10T23:56:09.149Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/create-multiple-organizations</loc>
+    <lastmod>2025-11-09T14:26:52.082Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/create-variants</loc>
+    <lastmod>2025-09-30T10:54:54.089Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/customize-benefits-order-in-checkouts</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/customize-products-order-in-checkouts</loc>
+    <lastmod>2025-12-10T23:56:09.157Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/disable-email-editing-in-checkout</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/disable-subscription-changes-in-customer-portal</loc>
+    <lastmod>2025-09-30T10:54:54.090Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/grant-meter-credits-after-purchase</loc>
+    <lastmod>2025-12-10T23:56:09.155Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/grant-meter-credits-before-purchase</loc>
+    <lastmod>2025-12-10T23:56:09.153Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/introduction</loc>
+    <lastmod>2025-12-10T23:56:09.159Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/laravel</loc>
+    <lastmod>2025-12-10T23:56:09.158Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/nextjs</loc>
+    <lastmod>2025-12-10T23:56:09.154Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/schedule-subscription-downgrades-qstash</loc>
+    <lastmod>2025-12-10T23:56:11.382Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/seat-based-pricing</loc>
+    <lastmod>2025-11-13T15:52:19.772Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/subscription-downgrades</loc>
+    <lastmod>2025-10-06T06:07:47.502Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/subscription-upgrades</loc>
+    
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/guides/theme-switch-in-checkout</loc>
+    <lastmod>2025-11-09T14:26:52.771Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/authentication</loc>
+    <lastmod>2025-08-11T11:43:12.005Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/customer-state</loc>
+    <lastmod>2025-08-11T11:43:12.005Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/mcp</loc>
+    <lastmod>2025-11-28T12:51:36.495Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/oauth2/connect</loc>
+    <lastmod>2025-12-10T23:56:11.383Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/oauth2/introduction</loc>
+    <lastmod>2025-08-11T11:43:12.044Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/oauth2/setup</loc>
+    <lastmod>2025-08-11T06:38:38.031Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sandbox</loc>
+    <lastmod>2025-10-08T06:58:38.903Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/astro</loc>
+    <lastmod>2025-12-10T23:56:11.380Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/better-auth</loc>
+    <lastmod>2025-12-10T23:56:11.384Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/deno</loc>
+    <lastmod>2025-12-10T23:56:11.376Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/elysia</loc>
+    <lastmod>2025-12-10T23:56:11.381Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/express</loc>
+    <lastmod>2025-12-10T23:56:11.379Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/fastify</loc>
+    <lastmod>2025-12-10T23:56:11.378Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/hono</loc>
+    <lastmod>2025-12-10T23:56:11.378Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/laravel</loc>
+    <lastmod>2025-12-11T10:26:29.568Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/nextjs</loc>
+    <lastmod>2025-12-10T23:56:11.981Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/nuxt</loc>
+    <lastmod>2025-12-10T23:56:11.982Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/remix</loc>
+    <lastmod>2025-12-10T23:56:11.987Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/supabase</loc>
+    <lastmod>2025-12-10T23:56:11.980Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/sveltekit</loc>
+    <lastmod>2025-12-10T23:56:11.979Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/adapters/tanstack-start</loc>
+    <lastmod>2025-12-10T23:56:11.987Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/golang</loc>
+    <lastmod>2025-08-11T11:43:12.060Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/php</loc>
+    <lastmod>2025-12-10T23:56:11.983Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/python</loc>
+    <lastmod>2025-12-10T23:56:11.988Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/sdk/typescript</loc>
+    <lastmod>2025-12-10T23:56:11.984Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/webhooks/delivery</loc>
+    <lastmod>2025-12-10T23:56:11.986Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/webhooks/endpoints</loc>
+    <lastmod>2025-12-10T23:56:12.730Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/integrate/webhooks/events</loc>
+    <lastmod>2025-12-11T22:16:59.836Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/introduction</loc>
+    <lastmod>2025-10-13T15:12:50.523Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/merchant-of-record/acceptable-use</loc>
+    <lastmod>2025-12-05T08:20:19.689Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/merchant-of-record/account-reviews</loc>
+    <lastmod>2025-12-05T20:25:28.582Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/merchant-of-record/fees</loc>
+    <lastmod>2025-08-11T11:43:12.069Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/merchant-of-record/introduction</loc>
+    <lastmod>2025-12-02T12:42:45.885Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/merchant-of-record/supported-countries</loc>
+    <lastmod>2025-10-27T06:48:20.311Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/migrate</loc>
+    <lastmod>2025-12-10T23:56:12.728Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://polar.sh/docs/support</loc>
+    <lastmod>2025-11-22T08:39:46.666Z</lastmod>
+  </url>
+</urlset>
