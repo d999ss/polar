@@ -151,6 +151,174 @@
         }, 2000);
       }
     });
+
+    // Populate empty tab panels with content
+    const tabPanelContent = {
+      // Integrate in under a minute - BetterAuth
+      'radix-_R_2lbriv9fd5ulb_-content-BetterAuth': {
+        title: 'BetterAuth Adapter',
+        description: 'Payments and Checkouts made dead simple with BetterAuth',
+        features: ['Secure & Simple Checkouts', 'Integrated Customer Portal', 'Granular & Reliable Webhook Handler', 'Global Merchant of Record'],
+        learnMoreUrl: 'docs/integrate/sdk/adapters/better-auth.html',
+        code: `import { betterAuth } from "better-auth";
+import { polar, checkout, portal, usage, webhooks } from "@polar-sh/better-auth";
+import { Polar } from "@polar-sh/sdk";
+
+const client = new Polar({ accessToken: 'xxx' });
+
+const auth = betterAuth({
+  // ... Better Auth config
+  plugins: [
+    polar({
+      client,
+      createCustomerOnSignUp: true,
+      use: [
+        checkout(...),
+        portal(),
+        usage(),
+        webhooks(...)
+      ],
+    })
+  ]
+});`
+      },
+      // Integrate in under a minute - TypeScript
+      'radix-_R_2lbriv9fd5ulb_-content-TypeScript': {
+        title: 'TypeScript Adapter',
+        description: 'Payments and Checkouts made dead simple with TypeScript',
+        features: ['Secure & Simple Checkouts', 'Integrated Customer Portal', 'Granular & Reliable Webhook Handler', 'Global Merchant of Record'],
+        learnMoreUrl: 'docs/api-reference/checkouts/create-session.html',
+        code: `import { Polar } from "@polar-sh/sdk";
+
+const polar = new Polar({
+  accessToken: 'xxx',
+});
+
+const checkout = await polar.checkouts.create({
+  products: ["<PRODUCT_ID>"]
+});
+
+redirect(checkout.url)`
+      },
+      // Usage Based Billing - Delta Time
+      'radix-_R_35briv9fd5ulb_-content-Delta Time': {
+        title: 'Delta Time Strategy',
+        description: 'Bill your customers for the time it takes to execute code on your infrastructure',
+        features: ['Precise measurements of execution time', 'Bring your own time-resolver'],
+        learnMoreUrl: 'docs/features/usage-based-billing/ingestion-strategies/delta-time-strategy.html',
+        code: `import { Ingestion } from "@polar-sh/ingestion";
+import { DeltaTimeStrategy } from "@polar-sh/ingestion/strategies/DeltaTime";
+
+const nowResolver = () => performance.now();
+
+const deltaTimeIngestion = Ingestion({ accessToken: 'xxx' })
+  .strategy(new DeltaTimeStrategy(nowResolver))
+  .ingest("execution-time");
+
+export async function GET(request: Request) {
+  const start = deltaTimeIngestion.client({
+    externalCustomerId: "<USER_ID_FROM_YOUR_DATABASE>",
+  });
+
+  const stop = start();
+  await sleep(1000);
+  const delta = stop();
+
+  return Response.json({ delta });
+}`
+      },
+      // Usage Based Billing - Custom Ingestion
+      'radix-_R_35briv9fd5ulb_-content-Custom Ingestion': {
+        title: 'Custom Ingestion Strategy',
+        description: 'Manually ingest data from your application to bill your customers',
+        features: ['Manually ingest usage data', 'Use any custom metadata', 'Support for batch ingestion'],
+        learnMoreUrl: 'https://github.com/polarsource/polar-ingestion',
+        code: `import { Ingestion } from "@polar-sh/ingestion";
+
+await Ingestion({ accessToken: 'xxx' }).ingest([
+  {
+    name: "<value>",
+    externalCustomerId: "<USER_ID_FROM_YOUR_DATABASE>",
+    metadata: {
+      myProp: "value",
+    },
+  },
+]);`
+      }
+    };
+
+    // Helper to create tab panel content HTML
+    function createTabPanelContent(config) {
+      const featuresHtml = config.features.map(f => `
+        <li class="flex flex-row items-center gap-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 text-blue-500"><path d="M20 6 9 17l-5-5"></path></svg>
+          <p class="text-sm">${f}</p>
+        </li>
+      `).join('');
+
+      return `
+        <div class="flex w-full flex-col-reverse items-start justify-between gap-8 overflow-hidden rounded-3xl bg-gray-50 p-6 dark:bg-polar-900 lg:flex-row lg:gap-0 lg:p-0">
+          <div class="flex flex-col gap-y-6 lg:p-8">
+            <h2 class="text-2xl">${config.title}</h2>
+            <p class="dark:text-polar-500 text-gray-500">${config.description}</p>
+            <ul class="flex flex-col gap-y-2">
+              ${featuresHtml}
+            </ul>
+            <a href="${config.learnMoreUrl}">
+              <button class="inline-flex items-center justify-center gap-2 rounded-full bg-transparent text-blue-500 hover:text-blue-400 transition-colors text-sm font-medium">
+                <span>Learn More</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+              </button>
+            </a>
+          </div>
+          <div class="flex w-full flex-shrink-0 flex-col overflow-hidden rounded-2xl bg-gradient-to-br from-[#D1AAF8] via-[#C3D6FA] via-60% to-[#C3D6FA] p-4 pl-8 lg:max-w-sm lg:rounded-none lg:rounded-br-3xl lg:p-10 lg:pl-10 xl:max-w-lg">
+            <pre class="shiki" style="background-color:transparent;overflow-x:auto"><code class="text-xs text-black">${config.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code></pre>
+          </div>
+        </div>
+      `;
+    }
+
+    // Populate empty tab panels
+    Object.entries(tabPanelContent).forEach(([panelId, config]) => {
+      const panel = document.getElementById(panelId);
+      if (panel && panel.innerHTML.trim() === '') {
+        panel.innerHTML = createTabPanelContent(config);
+      }
+    });
+
+    // Tab switching functionality
+    document.querySelectorAll('[role="tab"]').forEach(tab => {
+      tab.addEventListener('click', function() {
+        const tablist = this.closest('[role="tablist"]');
+        if (!tablist) return;
+
+        // Get all tabs in this tablist
+        const tabs = tablist.querySelectorAll('[role="tab"]');
+
+        // Deactivate all tabs
+        tabs.forEach(t => {
+          t.setAttribute('aria-selected', 'false');
+          t.setAttribute('data-state', 'inactive');
+          // Hide corresponding panel
+          const panelId = t.getAttribute('aria-controls');
+          if (panelId) {
+            const panel = document.getElementById(panelId);
+            if (panel) panel.setAttribute('hidden', '');
+          }
+        });
+
+        // Activate clicked tab
+        this.setAttribute('aria-selected', 'true');
+        this.setAttribute('data-state', 'active');
+
+        // Show corresponding panel
+        const panelId = this.getAttribute('aria-controls');
+        if (panelId) {
+          const panel = document.getElementById(panelId);
+          if (panel) panel.removeAttribute('hidden');
+        }
+      });
+    });
   }
 
   if (document.readyState === 'loading') {
