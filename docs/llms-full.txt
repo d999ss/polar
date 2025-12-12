@@ -331,7 +331,7 @@ Get a license key.
 
 
 
-# List License Keys
+# List Entitlements and licensing
 Source: https://polar.sh/docs/api-reference/customer-portal/license-keys/list
 
 get /v1/customer-portal/license-keys/
@@ -1077,7 +1077,7 @@ Get a license key activation.
 
 
 
-# List License Keys
+# List Entitlements and licensing
 Source: https://polar.sh/docs/api-reference/license-keys/list
 
 get /v1/license-keys/
@@ -2255,7 +2255,7 @@ Which Discord role do you want to grant as part of this benefit?
 Head over to the product you want to associate this new Discord benefit with. You should be able to toggle the benefit in the bottom of the Edit Product form.
 
 
-# Automate Customer File Downloads
+# Automate Customer Asset delivery
 Source: https://polar.sh/docs/features/benefits/file-downloads
 
 Offer digital file downloads with ease
@@ -2275,7 +2275,7 @@ You can easily offer customers and subscribers access to downloadable files with
 
 1. Go to `Benefits` in the Dashboard sidebar
 2. Click `+ Add Benefit` to create a new benefit
-3. Choose `File Downloads` as the `Type`
+3. Choose `Asset delivery` as the `Type`
 
 You can now upload the files you want to offer as downloadables for customers.
 
@@ -2322,7 +2322,7 @@ Sell premium GitHub repository access with ease
 
 <img src="https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=12d4147b094c8f5b3d002d600757ceb0" data-og-width="2400" width="2400" data-og-height="1374" height="1374" data-path="assets/features/benefits/github/hero.png" data-optimize="true" data-opv="3" srcset="https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?w=280&fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=63ab6d00001a48eb6e2238a7d3810f8b 280w, https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?w=560&fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=50de8533120fd2528f0dfc08821f13bc 560w, https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?w=840&fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=c8e2e6f5f7eb1243f5d73005fa99908b 840w, https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?w=1100&fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=913360e5400ee1a5af42173b254b2c34 1100w, https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?w=1650&fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=602a9f9247cb101f8c4a85a95df67e33 1650w, https://mintcdn.com/polar/Ut0vPUvE1pIdMcH2/assets/features/benefits/github/hero.png?w=2500&fit=max&auto=format&n=Ut0vPUvE1pIdMcH2&q=85&s=b1470520f9688da10c7d7b451bddff18 2500w" />
 
-## Sell GitHub Repository Access
+## Sell Access control
 
 With Polar you can seamlessly offer your customers and subscribers automated access to private GitHub repositories.
 
@@ -2344,7 +2344,7 @@ With Polar you can seamlessly offer your customers and subscribers automated acc
 
 1. Go to `Benefits` in the sidebar
 2. Click `+ New Benefit` to create a new benefit
-3. Choose `GitHub Repository Access` as the `Type`
+3. Choose `Access control` as the `Type`
 
 You first need to `Connect your GitHub Account` and install a dedicated Polar App for this benefit across the repositories you want to use it with.
 
@@ -2400,9 +2400,9 @@ Polar offers built-in benefit (entitlements) automation for common upsells withi
 designer ecosystem with more to come.
 
 * [**Credits**](/features/benefits/credits). A simple benefit that allows you to credit a customer's Usage Meter balance.
-* [**License Keys**](/features/benefits/license-keys). Software license keys that you can customize the branding of.
-* [**File Downloads**](/features/benefits/file-downloads). Downloadable files of any kind up to 10GB each.
-* [**GitHub Repository Access**](/features/benefits/github-access). Automatically invite subscribers to private GitHub repo(s).
+* [**Entitlements and licensing**](/features/benefits/license-keys). Software license keys that you can customize the branding of.
+* [**Asset delivery**](/features/benefits/file-downloads). Downloadable files of any kind up to 10GB each.
+* [**Access control**](/features/benefits/github-access). Define roles, permissions, and controlled access across platforms
 * [**Discord Invite**](/features/benefits/discord-access). Automate invitations and granting of roles to subscribers and customers.
 
 ## Product & Subscription Benefits
@@ -2451,7 +2451,7 @@ You can easily sell software license keys with Polar without having to deal with
 
 1. Go to `Benefits` in the sidebar
 2. Click `+ New Benefit` to create a new benefit
-3. Choose `License Keys` as the `Type`
+3. Choose `Entitlements and licensing` as the `Type`
 
 ### Custom Branding
 
@@ -2486,7 +2486,7 @@ Customers can:
 
 It's super easy and straightforward to integrate Polar license keys into your application, library or API.
 
-### Activate License Keys (Optional)
+### Activate Entitlements and licensing (Optional)
 
 In case you've setup license keys to have a maximum amount of activation instances, e.g user devices. You'll then need to create an activation instance prior to validating license keys / activation.
 
@@ -2554,7 +2554,7 @@ curl -X POST https://api.polar.sh/v1/customer-portal/license-keys/activate
 }
 ```
 
-### Validate License Keys
+### Validate Entitlements and licensing
 
 For each session of your premium app, library or API, we recommend you validate the users license key via the
 [`/v1/customer-portal/license-keys/validate`](/api-reference/customer-portal/license-keys/validate) endpoint.
@@ -4511,10 +4511,10 @@ Finally, you can enable or create new entitlements (what we call Benefits) that 
 
 Read more in our [product benefits guide](/features/benefits/introduction) on how they work and how to customize the built-in ones we offer:
 
-* License Keys
+* Entitlements and licensing
 * Discord Server Role
-* GitHub Repository Access
-* File Downloads
+* Access control
+* Asset delivery
 * Custom Benefit
 
 ## Variants
@@ -5662,9 +5662,9 @@ You can create and manage your meters from the dashboard. Polar is then able to 
 
 A metered price is a price that is based on the usage of a meter, which is computed by filtering aggregating the events that are ingested. This is how you charge your customers for the usage of your application.
 
-### Meter Credits benefit
+### Usage and allocation benefit
 
-You can give credits to your customers on a specific meter. This is done by creating a Meter Credits Benefit, which is a special type of benefit that allows you to give credits to your customers on a specific meter.
+You can give credits to your customers on a specific meter. This is done by creating a Usage and allocation Benefit, which is a special type of benefit that allows you to give credits to your customers on a specific meter.
 
 On a recurring product, the customer will be credited the amount of units specified in the benefit at the beginning of every subscription cycle period — monthly or yearly.
 
@@ -6315,7 +6315,7 @@ Learn how to customize the order in which Benefits appear in checkouts.
 <Steps>
   <Step title="Create Multiple Benefits">
     * [Create a Custom Benefit](https://polar.sh/docs/guides/automate-post-purchase-link-sharing#create-a-custom-benefit)
-    * [Create a File Downloads Benefit](https://polar.sh/docs/features/benefits/file-downloads#create-downloadable-benefit)
+    * [Create a Asset delivery Benefit](https://polar.sh/docs/features/benefits/file-downloads#create-downloadable-benefit)
   </Step>
 
   <Step title="Create a Product">
@@ -6333,7 +6333,7 @@ Learn how to customize the order in which Benefits appear in checkouts.
   </Step>
 
   <Step title="View Checkout">
-    The checkout session looks like below. The Custom Benefit named **Product Link** appears first, followed by the File Downloads Benefit named **Product File**.
+    The checkout session looks like below. The Custom Benefit named **Product Link** appears first, followed by the Asset delivery Benefit named **Product File**.
 
     <img height="200" src="https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=d0acd841c4d67e89aa2f272686038e78" data-og-width="1749" data-og-height="881" data-path="assets/guides/customize-benefits-order-in-checkouts/checkout-session.png" data-optimize="true" data-opv="3" srcset="https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?w=280&fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=faa06d17f69e867af7d2b6b2348969f4 280w, https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?w=560&fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=55fe0672c99890eb53227f1802618074 560w, https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?w=840&fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=ee0649ef55e890d6c58befd4cde38109 840w, https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?w=1100&fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=07b8f7d1c31a8cf87adb1e41aed963dc 1100w, https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?w=1650&fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=2ac8eafb0080e328b51ce91cfdb5dc6a 1650w, https://mintcdn.com/polar/mL-baIKTd7M2jhcf/assets/guides/customize-benefits-order-in-checkouts/checkout-session.png?w=2500&fit=max&auto=format&n=mL-baIKTd7M2jhcf&q=85&s=18d4cc58564a345a6bc64d486caf9f0d 2500w" />
   </Step>
@@ -6724,10 +6724,10 @@ Learn how to disable the option for customers to upgrade or downgrade subscripti
 </Steps>
 
 
-# How to Grant Meter Credits After Purchase
+# How to Grant Usage and allocation After Purchase
 Source: https://polar.sh/docs/guides/grant-meter-credits-after-purchase
 
-Learn how to automatically grant meter credits to users after purchase using the Meter Credits benefits or Webhooks.
+Learn how to automatically grant meter credits to users after purchase using the Usage and allocation benefits or Webhooks.
 
 ## Overview
 
@@ -6739,12 +6739,12 @@ When building usage-based billing systems, you may want to give new customers an
 
 There are two ways to grant initial meter credits in Polar:
 
-1. **Meter Credits Benefit (Recommended)** - Automatically grant credits when a customer purchases a product
+1. **Usage and allocation Benefit (Recommended)** - Automatically grant credits when a customer purchases a product
 2. **Webhook + Events API** - Programmatically grant credits for advanced use cases
 
 ### Which Method Should I Use?
 
-| Feature                | Meter Credits Benefit         | Webhook + Events API                      |
+| Feature                | Usage and allocation Benefit         | Webhook + Events API                      |
 | ---------------------- | ----------------------------- | ----------------------------------------- |
 | **Setup Complexity**   | ✅ Simple - No code required   | ⚙️ Advanced - Requires coding             |
 | **Automatic Credits**  | ✅ Yes                         | ❌ No - Manual implementation              |
@@ -6754,26 +6754,26 @@ There are two ways to grant initial meter credits in Polar:
 | **Best For**           | Most use cases                | Complex crediting rules                   |
 
 <Tip>
-  **Start with Method 1** (Meter Credits Benefit) unless you need custom logic or complex crediting rules. It's simpler and requires no code.
+  **Start with Method 1** (Usage and allocation Benefit) unless you need custom logic or complex crediting rules. It's simpler and requires no code.
 </Tip>
 
 ***
 
-## Method 1: Using Meter Credits Benefit (Recommended)
+## Method 1: Using Usage and allocation Benefit (Recommended)
 
-The simplest way to grant initial credits is to use the built-in **Meter Credits** benefit. This automatically grants credits (once) to customers when they purchase a product.
+The simplest way to grant initial credits is to use the built-in **Usage and allocation** benefit. This automatically grants credits (once) to customers when they purchase a product.
 
 ### Step 1: Create a Meter with Sum Aggregation
 
 First, [create a meter](/features/usage-based-billing/meters) that will track your customers usage.
 
-### Step 2: Create a Meter Credits Benefit
+### Step 2: Create a Usage and allocation Benefit
 
-Now [create a Meter Credits benefit](/features/benefits/credits) that will grant the initial credits.
+Now [create a Usage and allocation benefit](/features/benefits/credits) that will grant the initial credits.
 
 ### Step 3: Create a Product with the Benefit
 
-Create a product and attach the Meter Credits benefit to it.
+Create a product and attach the Usage and allocation benefit to it.
 
 <Steps>
   <Step title="Create a product">
@@ -6788,8 +6788,8 @@ Create a product and attach the Meter Credits benefit to it.
       * Attach your meter to the product and set the per unit cost
   </Step>
 
-  <Step title="Add the Meter Credits benefit">
-    Scroll to the **Automated Benefits** section and toggle ON the Meter Credits benefit you created.
+  <Step title="Add the Usage and allocation benefit">
+    Scroll to the **Automated Benefits** section and toggle ON the Usage and allocation benefit you created.
   </Step>
 
   <Step title="Save the product">
@@ -6864,7 +6864,7 @@ Learn more about [creating meters](/features/usage-based-billing/meters).
 
 ### Step 2. Create a Product
 
-Follow the same steps as Method 1 to create your product (you don't need to create or attach the Meter Credits benefit for this approach).
+Follow the same steps as Method 1 to create your product (you don't need to create or attach the Usage and allocation benefit for this approach).
 
 ### Step 3: Set Up Webhooks
 
@@ -7005,7 +7005,7 @@ if (!hasGrantedCredits) {
 ```
 
 
-# How to Grant Meter Credits Before Purchase
+# How to Grant Usage and allocation Before Purchase
 Source: https://polar.sh/docs/guides/grant-meter-credits-before-purchase
 
 Learn how to grant meter credits to customers before they make any purchase using the Polar API.
@@ -8189,8 +8189,8 @@ By the end of this guide, you'll have:
   <Step title="Add benefits">
     Configure benefits that seat holders will receive:
 
-    * License Keys
-    * File Downloads
+    * Entitlements and licensing
+    * Asset delivery
     * Discord roles
     * Custom benefits
 
@@ -13108,11 +13108,11 @@ Turn your software into a business with Polar. Sell digital products, subscripti
 their benefits automatically. No manual work required.
 
 <CardGroup cols={2}>
-  <Card title="License Keys" icon="key" href="/features/benefits/license-keys">
+  <Card title="Entitlements and licensing" icon="key" href="/features/benefits/license-keys">
     Generate and deliver software licenses automatically with custom formats
   </Card>
 
-  <Card title="File Downloads" icon="download" href="/features/benefits/file-downloads">
+  <Card title="Asset delivery" icon="download" href="/features/benefits/file-downloads">
     Secure delivery of digital assets up to 10GB with download tracking
   </Card>
 
@@ -13441,7 +13441,7 @@ deceptive or sketchy.
 
 Digital goods, software or services that can be fulfilled by…
 
-1. Polar on your behalf (License Keys, File Downloads, GitHub- or Discord invites or private links, e.g premium YouTube videos etc)
+1. Polar on your behalf (Entitlements and licensing, Asset delivery, GitHub- or Discord invites or private links, e.g premium YouTube videos etc)
 2. Your site/service using our APIs to grant immediate access to digital assets
    or services for customers with a one-time purchase or subscriptions
 
@@ -14116,7 +14116,7 @@ npx polar-migrate@latest
 ### Supported Migrations
 
 * Products & Variants
-* License Keys
+* Entitlements and licensing
 * Associated Files
 * Discount Codes
 * Customers
