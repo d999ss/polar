@@ -69,14 +69,14 @@
 
   // Dark mode toggle - run immediately before init
   (function initDarkMode() {
-    // Check for saved preference or system preference
+    // Check for saved preference, default to dark mode
     const savedTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
-      document.documentElement.classList.add('dark');
-    } else {
+    if (savedTheme === 'light') {
       document.documentElement.classList.remove('dark');
+    } else {
+      // Default to dark mode
+      document.documentElement.classList.add('dark');
     }
   })();
 
