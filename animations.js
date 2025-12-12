@@ -46,6 +46,24 @@
     .activity-date-hidden {
       display: none !important;
     }
+    /* App icon inner shadow for soft edges */
+    .app-icon-wrapper {
+      position: relative;
+      display: inline-block;
+      border-radius: 24px;
+      overflow: hidden;
+    }
+    .app-icon-wrapper::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 24px;
+      box-shadow: inset 0 0 40px 20px rgba(249, 250, 251, 0.9);
+      pointer-events: none;
+    }
+    .dark .app-icon-wrapper::after {
+      box-shadow: inset 0 0 40px 20px rgba(9, 9, 11, 0.9);
+    }
   `;
   document.head.appendChild(style);
 
@@ -55,6 +73,15 @@
       el.style.opacity = '1';
       el.style.transform = 'translateY(0)';
     });
+
+    // Wrap app icon in shadow wrapper for soft edges
+    const appIcon = document.querySelector('img[alt="App Icon"]');
+    if (appIcon && !appIcon.parentElement.classList.contains('app-icon-wrapper')) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'app-icon-wrapper';
+      appIcon.parentElement.insertBefore(wrapper, appIcon);
+      wrapper.appendChild(appIcon);
+    }
 
     // Hero section - staggered fade in
     const hero = document.querySelector('.relative.flex.flex-col.items-center.justify-center.gap-4');
