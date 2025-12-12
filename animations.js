@@ -67,7 +67,29 @@
   `;
   document.head.appendChild(style);
 
+  // Dark mode toggle - run immediately before init
+  (function initDarkMode() {
+    // Check for saved preference or system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  })();
+
   function init() {
+    // Dark mode toggle button handler
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    if (darkModeToggle) {
+      darkModeToggle.addEventListener('click', function() {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      });
+    }
+
     // Fix elements with inline opacity:0 styles (from Next.js hydration)
     document.querySelectorAll('[style*="opacity:0"], [style*="opacity: 0"]').forEach(el => {
       el.style.opacity = '1';
@@ -132,7 +154,7 @@
     });
 
     // Activity ticker animation
-    const activityHeading = Array.from(document.querySelectorAll('h3')).find(h => h.textContent === 'Activity' || h.textContent === 'System Activity');
+    const activityHeading = Array.from(document.querySelectorAll('h3')).find(h => h.textContent === 'Activity');
     if (activityHeading) {
       // Structure: heading -> parent div -> grandparent (activity box) -> children[1] is items container
       const activityBox = activityHeading.parentElement?.parentElement;
